@@ -15,8 +15,8 @@
        <nav class="nav-links">
       <a href="#vakken">vakken</a>
       <a href="#rooster">rooster</a>
-      <a href="#">blokken</a>
-      <a href="#">locaties</a>
+      <a href="#blokken">blokken</a>
+      <a href="#locaties">locaties</a>
       <a href="#">docenten</a>
     </nav>
      <a href="#">INLOGGEN</a>
@@ -119,6 +119,76 @@ Wat deze site bijzonder maakt, is dat hij is gemaakt door studenten, voor studen
     </div>
 </section>
 
+ <!-- Locaties -->
+<section id="locaties">
+    <h2>Onze Locaties (opleiding software development)</h2>
+    <div class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="images/locations/Curio - Terheijdenseweg 350-1.jpg" alt="Curio Terheijdenseweg 350">
+                <p>Terheijdenseweg 350</p>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/locations/Curio - Terheijdenseweg 350-2.jpg" alt="Curio Terheijdenseweg 350">
+                <p>Terheijdenseweg 350</p>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/locations/Curio - Knipplein 11-1.jpg" alt="Curio Knipplein">
+                <p>Knipplein 11</p>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/locations/Curio - Knipplein 11-2.jpg" alt="Curio Knipplein">
+                <p>Knipplein 11</p>
+            </div>
+            <div class="carousel-slide">
+                <img src="images/locations/Curio - Knipplein 11-3.jpg" alt="Curio Knipplein">
+                <p>Knipplein 11</p>
+            </div>
+        </div>
+        <button class="carousel-button prev">&#10094;</button>
+        <button class="carousel-button next">&#10095;</button>
+    </div>
+    <div class="photo-credits">
+        <p>Foto's: © Sanne Bas</p>
+    </div>
+</section>
+
+<!-- docenten -->
+<section id="docenten">
+    <h2>Onze Docenten</h2>
+    <div class="docenten-grid">
+        <div class="docent-card">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Bart" alt="Bart">
+            <h3>Bart</h3>
+            <p>Webdevelopment / SLB / Delta</p>
+        </div>
+        <div class="docent-card">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Elton" alt="Elton">
+            <h3>Elton</h3>
+            <p>Webdevelopment</p>
+        </div>
+        <div class="docent-card">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Michel" alt="Michel">
+            <h3>Michel</h3>
+            <p>Rekenen / PRO</p>
+        </div>
+        <div class="docent-card">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Wicher" alt="Wicher">
+            <h3>Wicher</h3>
+            <p>Native</p>
+        </div>
+        <div class="docent-card">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Wiro" alt="Wiro">
+            <h3>Wiro</h3>
+            <p>Rekenen</p>
+        </div>
+        <div class="docent-card">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Corne" alt="Corne">
+            <h3>Corne</h3>
+            <p>Native</p>
+        </div>
+    </div>
+</section>
 
   <!-- Call to Action -->
   <section id="aanmelden" class="cta">
@@ -132,5 +202,6 @@ Wat deze site bijzonder maakt, is dat hij is gemaakt door studenten, voor studen
     <p>&copy; 2025 Curio – Alle rechten voorbehouden.</p>
   </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
