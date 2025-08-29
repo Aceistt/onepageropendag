@@ -17,7 +17,7 @@
       <a href="#rooster">rooster</a>
       <a href="#blokken">blokken</a>
       <a href="#locaties">locaties</a>
-      <a href="#">docenten</a>
+      <a href="#docenten">docenten</a>
     </nav>
      <a href="#">INLOGGEN</a>
     </div>
@@ -158,32 +158,32 @@ Wat deze site bijzonder maakt, is dat hij is gemaakt door studenten, voor studen
     <h2>Onze Docenten</h2>
     <div class="docenten-grid">
         <div class="docent-card">
-            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Bart" alt="Bart">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Male1" alt="Bart">
             <h3>Bart</h3>
             <p>Webdevelopment / SLB / Delta</p>
         </div>
         <div class="docent-card">
-            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Elton" alt="Elton">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Male2" alt="Elton">
             <h3>Elton</h3>
             <p>Webdevelopment</p>
         </div>
         <div class="docent-card">
-            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Michel" alt="Michel">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Male3" alt="Michel">
             <h3>Michel</h3>
             <p>Rekenen / PRO</p>
         </div>
         <div class="docent-card">
-            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Wicher" alt="Wicher">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Male4" alt="Wicher">
             <h3>Wicher</h3>
             <p>Native</p>
         </div>
         <div class="docent-card">
-            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Wiro" alt="Wiro">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Male5" alt="Wiro">
             <h3>Wiro</h3>
             <p>Rekenen</p>
         </div>
         <div class="docent-card">
-            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Corne" alt="Corne">
+            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Male6" alt="Corne">
             <h3>Corne</h3>
             <p>Native</p>
         </div>
