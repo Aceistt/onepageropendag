@@ -46,3 +46,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize first slide
     updateSlide();
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const faqQuestions = document.querySelectorAll('.faq-question');
+
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+
+            // Toggle de zichtbaarheid van het antwoord
+            if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+            } else {
+                answer.style.display = 'block';
+            }
+        });
+    });
+});

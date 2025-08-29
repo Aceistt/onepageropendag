@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   background: #f9fafb;
-  color: #333;
+  color:  #333;
   line-height: 1.6;
 }
 
@@ -37,11 +37,35 @@ header h1 {
 }
 
 .button {
-  background: #4f46e5;
+  background: #3b78ff;
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 6px;
   text-decoration: none;
+}
+
+.button:hover {
+  background: #fff; /* Change background to white */
+  color: #3b78ff; /* Change text color to the original button background color */
+}
+
+/* Hero button styling */
+.hero .button {
+  display: inline-block;
+  background: #3b78ff; /* Blauwe achtergrondkleur */
+  color: #fff; /* Witte tekstkleur */
+  padding: 0.75rem 1.5rem; /* Ruime padding */
+  font-size: 1rem; /* Tekstgrootte */
+  font-weight: bold; /* Vetgedrukte tekst */
+  border-radius: 0; /* Hoekerige border */
+  text-decoration: none; /* Geen onderstreping */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schaduw voor diepte */
+  position: relative; /* Voor de pijl */
+}
+
+.hero .button:hover {
+  background: #fff; /* Witte achtergrondkleur bij hover */
+  color: #3b78ff; /* Blauwe tekstkleur bij hover */
 }
 
 section {
@@ -57,7 +81,7 @@ section h2 {
 }
 
 .hero {
-  background:#ffcc00 ;
+  background:#002d72 ;
   text-align: center;
   padding: 4rem 1rem;
   max-width: 2000px;
@@ -67,10 +91,12 @@ section h2 {
   font-size: 1.2rem;
   margin: 0 auto;
   max-width: 800px;
+  color: #ffcc00;
 }
 .hero h2 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
+  color: #ffcc00;
 }
 
 .hero .button {
@@ -128,11 +154,39 @@ ul li {
 }
 
 footer {
-  text-align: center;
-  padding: 1rem;
-  background: #fff;
-  border-top: 1px solid #ddd;
-  font-size: 0.9rem;
+    background: #002d72; /* Donkerblauwe achtergrond */
+    color: #ffcc00; /* Gele tekstkleur */
+    padding: 2rem 1rem; /* Ruime padding */
+    text-align: center;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Subtiele schaduw boven de footer */
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ffcc00; /* Gele tekstkleur */
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
 }
 
 .logo {
@@ -217,7 +271,7 @@ body {
 
 #vakken li .card h3 {
   margin-top: 0;
-  color: #4f46e5; /* match hero color */
+  color: #002d72; /* match hero color */
   font-size: 1.3rem;
 }
 
@@ -460,4 +514,128 @@ body {
 .docent-card p {
     color: #666;
     font-size: 0.9rem;
+}
+#faq {
+    max-width: 1000px;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+#faq h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #002d72;
+}
+
+.faq-item {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.faq-question {
+    font-size: 1.2rem;
+    color: #3b78ff;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+
+.faq-answer {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    display: none; /* Verberg antwoorden standaard */
+}
+#Opendag {
+    max-width: 2000px;
+    margin: auto;
+    padding: 3rem 1rem;
+    text-align: center;
+    background: #002d72;
+    border: 1px solid #f8aecd;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#Opendag h2 {
+    font-size: 1.8rem;
+    color: #ffcc00;
+    margin-bottom: 1rem;
+}
+
+#Opendag p {
+    font-size: 1.2rem;
+    color: #ffcc00;
+    margin-bottom: 1.5rem;
+}
+
+.opendag-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 600px;
+}
+
+.opendag-list li {
+    font-size: 1.1rem;
+    color: #ffcc00;
+    margin-bottom: 0.75rem;
+}
+
+.opendag-list li strong {
+    color: #ffcc00;
+}
+
+#Opendag .button {
+    margin-top: 1.5rem;
+    display: inline-block;
+    background: #3b78ff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0; /* Hard edges */
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#Opendag .button:hover {
+    background: #fff;
+    color: #3b78ff;
+    border: 1px solid #3b78ff;
+}
+
+footer {
+    background: #002d72; /* Donkerblauwe achtergrond */
+    color: #f8aecd; /* Gele tekstkleur */
+    padding: 2rem 1rem; /* Ruime padding */
+    text-align: center;
+    font-size: 0.9rem;
+   
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #f8aecd; /* Gele tekstkleur */
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
 }
