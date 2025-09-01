@@ -12,15 +12,20 @@
   <header>
     <div class="container">
       <img src="images/Logos/curio-03-geel-logo-rgb.png" alt="Curio logo" class="logo">
-       <nav class="nav-links">
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links">
       <a href="#vakken">VAKKEN</a>
       <a href="#rooster">ROOSTER</a>
       <a href="#blokken">BLOKKEN</a>
       <a href="#locaties">LOCATIES</a>
       <a href="#docenten">DOCENTEN</a>
       <a href="#Opendag">OPEN DAG</a> <!-- Snelkoppeling toegevoegd -->
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">     INLOGGEN</a>
     </nav>
-     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">INLOGGEN</a>
     </div>
   </header>
 
