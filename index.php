@@ -20,7 +20,7 @@
       <a href="#docenten">DOCENTEN</a>
       <a href="#Opendag">OPEN DAG</a> <!-- Snelkoppeling toegevoegd -->
     </nav>
-     <a href="https://www.curio.nl/user/login">INLOGGEN</a>
+     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">INLOGGEN</a>
     </div>
   </header>
 
